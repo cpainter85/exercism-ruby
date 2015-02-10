@@ -1,6 +1,6 @@
 class Squares
   def initialize(number)
-    @range = Array(1..number)
+    @range = (1..number)
   end
 
   def square_of_sums
