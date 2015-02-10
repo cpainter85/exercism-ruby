@@ -4,23 +4,15 @@ class Squares
   end
 
   def square_of_sums
-    sum = 0
-    @range.each do |x|
-      sum+=x
-    end
-    sum**2
+    @range.reduce(:+)**2
   end
 
   def sum_of_squares
-    sum = 0
-    @range.each do |x|
-      sum += x**2
-    end
-    sum
+    @range.map{|x| x**2}.reduce(:+)
   end
 
   def difference
-    self.square_of_sums - self.sum_of_squares
+    square_of_sums - sum_of_squares
   end
 
 end
