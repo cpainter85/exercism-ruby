@@ -1,6 +1,7 @@
 # Grains
 
-Write a program that calculates the number of grains of wheat on a chessboard given that the number on each square doubles.
+Write a program that calculates the number of grains of wheat on a chessboard given
+ that the number on each square doubles.
 
 There once was a wise servant who saved the life of a prince. The king
 promised to pay whatever the servant could dream up. Knowing that the
